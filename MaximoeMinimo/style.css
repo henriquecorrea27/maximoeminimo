@@ -5,6 +5,47 @@
 }
 
 :root {
-  font-family: "Source Serif 4";
   font-size: 62.5%;
+}
+
+h1 {
+  font-weight: 700;
+  color: rgb(0, 0, 68);
+  font-size: 3.6rem;
+}
+
+body {
+  font-family: "Source Serif 4";
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.input label {
+  font-size: 1.6rem;
+}
+
+.volume button {
+  color: #fff;
+  height: 4.2rem;
+  font-size: 1.6rem;
+
+  background: rgb(0, 0, 68);
+
+  margin-bottom: 3rem;
+}
+
+#resultado {
+  font-size: 1.6rem;
+  font-weight: 400;
 }

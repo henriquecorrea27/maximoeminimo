@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Máximo e Mínimo</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="/calculo.js"></script>
   </head>
   <body>
     <main>
@@ -18,13 +19,15 @@
         <h1>Máximos e Mínimos</h1>
       </div>
       <div class="input">
-        <label for="area">Informe a Área: </label>
-        <input type="text" id="area" name="area" />
+        <label for="area">Informe a Área (m²): </label>
+        <input type="text" id="area" placeholder="Insira a área" />
       </div>
       <div class="calculos">
         <div class="volume">
-          <button>Calcular Volume Max</button>
+          <button onclick="calcular()">Calcular Volume Max</button>
         </div>
+
+        <p id="resultado"></p>
       </div>
     </main>
   </body>
