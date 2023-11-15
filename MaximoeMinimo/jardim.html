@@ -9,22 +9,26 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Volume Máximo</title>
+    <title>Área Máxima Jardim</title>
     <link rel="stylesheet" href="volume.css" />
     <script src="/calculo.js"></script>
   </head>
   <body>
     <main>
       <div class="title">
-        <h1>Volume Máximo</h1>
+        <h1>Área Máxima Jardim</h1>
       </div>
       <div class="input">
-        <label for="area">Informe a Área (m²): </label>
-        <input type="text" id="area" placeholder="Insira a área" />
+        <label for="cateto1">Informe cateto 1: </label>
+        <input type="text" id="cateto1" placeholder="Insira a cateto" />
+      </div>
+      <div class="input">
+        <label for="cateto2">Informe cateto 2: </label>
+        <input type="text" id="cateto2" placeholder="Insira a cateto" />
       </div>
       <div class="calculos">
         <div class="volume">
-          <button onclick="calcularVolume()">Calcular</button>
+          <button onclick="calcularJardim()">Calcular</button>
         </div>
 
         <p id="resultado"></p>
