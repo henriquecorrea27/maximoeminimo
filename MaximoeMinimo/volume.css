@@ -25,22 +25,30 @@ body {
   padding-bottom: 5rem;
 }
 
+.input {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.input label {
+  font-size: 1.6rem;
+}
+
 .volume button {
   color: #fff;
   height: 4.2rem;
   font-size: 1.6rem;
+  width: 10rem;
 
   background: rgb(0, 0, 68);
 
   margin-bottom: 3rem;
-
-  width: 25rem;
 }
 
 .volume {
   display: flex;
   justify-content: center;
-  flex-direction: column;
 }
 
 #resultado {
